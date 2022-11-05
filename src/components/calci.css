@@ -1,0 +1,42 @@
+*{
+    margin: 5px;
+    padding: 0;
+
+}
+.main{
+    display: flex;
+}
+.main-left{
+    justify-content: baseline;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(207, 191, 191);
+    padding: 20px 20px;
+}
+.field  input{
+    width: 70%;
+    text-align: right;
+    margin-left: 10px;
+}
+.btn{
+    margin-left: 50px;
+}
+.btn button{
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+.error{
+    color: red;
+}
+.main-right .result{
+    
+    margin-top: 200px;
+    width: 150px;
+    height: 20px;
+  background-color: green;
+  color: white;
+  margin-left: 10px;
+}
